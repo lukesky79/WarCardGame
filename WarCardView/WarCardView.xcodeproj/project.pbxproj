@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		227D485F23FD3692006AA872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D485E23FD3692006AA872 /* AppDelegate.swift */; };
+		227D486123FD3692006AA872 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D486023FD3692006AA872 /* SceneDelegate.swift */; };
+		227D486323FD3692006AA872 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D486223FD3692006AA872 /* ViewController.swift */; };
+		227D486623FD3692006AA872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227D486423FD3692006AA872 /* Main.storyboard */; };
+		227D486823FD3693006AA872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227D486723FD3693006AA872 /* Assets.xcassets */; };
+		227D486B23FD3693006AA872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227D486923FD3693006AA872 /* LaunchScreen.storyboard */; };
+		227D487623FD3694006AA872 /* WarCardViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D487523FD3694006AA872 /* WarCardViewTests.swift */; };
+		227D488123FD3694006AA872 /* WarCardViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D488023FD3694006AA872 /* WarCardViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		227D487223FD3694006AA872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 227D485323FD3692006AA872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 227D485A23FD3692006AA872;
+			remoteInfo = WarCardView;
+		};
+		227D487D23FD3694006AA872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 227D485323FD3692006AA872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 227D485A23FD3692006AA872;
+			remoteInfo = WarCardView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		227D485B23FD3692006AA872 /* WarCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		227D485E23FD3692006AA872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		227D486023FD3692006AA872 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		227D486223FD3692006AA872 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		227D486523FD3692006AA872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		227D486723FD3693006AA872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		227D486A23FD3693006AA872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		227D486C23FD3693006AA872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227D487123FD3694006AA872 /* WarCardViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarCardViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		227D487523FD3694006AA872 /* WarCardViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarCardViewTests.swift; sourceTree = "<group>"; };
+		227D487723FD3694006AA872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227D487C23FD3694006AA872 /* WarCardViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarCardViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		227D488023FD3694006AA872 /* WarCardViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarCardViewUITests.swift; sourceTree = "<group>"; };
+		227D488223FD3694006AA872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		227D485823FD3692006AA872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D486E23FD3694006AA872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D487923FD3694006AA872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		227D485223FD3692006AA872 = {
+			isa = PBXGroup;
+			children = (
+				227D485D23FD3692006AA872 /* WarCardView */,
+				227D487423FD3694006AA872 /* WarCardViewTests */,
+				227D487F23FD3694006AA872 /* WarCardViewUITests */,
+				227D485C23FD3692006AA872 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		227D485C23FD3692006AA872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227D485B23FD3692006AA872 /* WarCardView.app */,
+				227D487123FD3694006AA872 /* WarCardViewTests.xctest */,
+				227D487C23FD3694006AA872 /* WarCardViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227D485D23FD3692006AA872 /* WarCardView */ = {
+			isa = PBXGroup;
+			children = (
+				227D485E23FD3692006AA872 /* AppDelegate.swift */,
+				227D486023FD3692006AA872 /* SceneDelegate.swift */,
+				227D486223FD3692006AA872 /* ViewController.swift */,
+				227D486423FD3692006AA872 /* Main.storyboard */,
+				227D486723FD3693006AA872 /* Assets.xcassets */,
+				227D486923FD3693006AA872 /* LaunchScreen.storyboard */,
+				227D486C23FD3693006AA872 /* Info.plist */,
+			);
+			path = WarCardView;
+			sourceTree = "<group>";
+		};
+		227D487423FD3694006AA872 /* WarCardViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				227D487523FD3694006AA872 /* WarCardViewTests.swift */,
+				227D487723FD3694006AA872 /* Info.plist */,
+			);
+			path = WarCardViewTests;
+			sourceTree = "<group>";
+		};
+		227D487F23FD3694006AA872 /* WarCardViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				227D488023FD3694006AA872 /* WarCardViewUITests.swift */,
+				227D488223FD3694006AA872 /* Info.plist */,
+			);
+			path = WarCardViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		227D485A23FD3692006AA872 /* WarCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227D488523FD3694006AA872 /* Build configuration list for PBXNativeTarget "WarCardView" */;
+			buildPhases = (
+				227D485723FD3692006AA872 /* Sources */,
+				227D485823FD3692006AA872 /* Frameworks */,
+				227D485923FD3692006AA872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarCardView;
+			productName = WarCardView;
+			productReference = 227D485B23FD3692006AA872 /* WarCardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		227D487023FD3694006AA872 /* WarCardViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227D488823FD3694006AA872 /* Build configuration list for PBXNativeTarget "WarCardViewTests" */;
+			buildPhases = (
+				227D486D23FD3694006AA872 /* Sources */,
+				227D486E23FD3694006AA872 /* Frameworks */,
+				227D486F23FD3694006AA872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				227D487323FD3694006AA872 /* PBXTargetDependency */,
+			);
+			name = WarCardViewTests;
+			productName = WarCardViewTests;
+			productReference = 227D487123FD3694006AA872 /* WarCardViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		227D487B23FD3694006AA872 /* WarCardViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227D488B23FD3694006AA872 /* Build configuration list for PBXNativeTarget "WarCardViewUITests" */;
+			buildPhases = (
+				227D487823FD3694006AA872 /* Sources */,
+				227D487923FD3694006AA872 /* Frameworks */,
+				227D487A23FD3694006AA872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				227D487E23FD3694006AA872 /* PBXTargetDependency */,
+			);
+			name = WarCardViewUITests;
+			productName = WarCardViewUITests;
+			productReference = 227D487C23FD3694006AA872 /* WarCardViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		227D485323FD3692006AA872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Lee-Roy Nadjar";
+				TargetAttributes = {
+					227D485A23FD3692006AA872 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					227D487023FD3694006AA872 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 227D485A23FD3692006AA872;
+					};
+					227D487B23FD3694006AA872 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 227D485A23FD3692006AA872;
+					};
+				};
+			};
+			buildConfigurationList = 227D485623FD3692006AA872 /* Build configuration list for PBXProject "WarCardView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 227D485223FD3692006AA872;
+			productRefGroup = 227D485C23FD3692006AA872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				227D485A23FD3692006AA872 /* WarCardView */,
+				227D487023FD3694006AA872 /* WarCardViewTests */,
+				227D487B23FD3694006AA872 /* WarCardViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		227D485923FD3692006AA872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227D486B23FD3693006AA872 /* LaunchScreen.storyboard in Resources */,
+				227D486823FD3693006AA872 /* Assets.xcassets in Resources */,
+				227D486623FD3692006AA872 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D486F23FD3694006AA872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D487A23FD3694006AA872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		227D485723FD3692006AA872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227D486323FD3692006AA872 /* ViewController.swift in Sources */,
+				227D485F23FD3692006AA872 /* AppDelegate.swift in Sources */,
+				227D486123FD3692006AA872 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D486D23FD3694006AA872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227D487623FD3694006AA872 /* WarCardViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227D487823FD3694006AA872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227D488123FD3694006AA872 /* WarCardViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		227D487323FD3694006AA872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 227D485A23FD3692006AA872 /* WarCardView */;
+			targetProxy = 227D487223FD3694006AA872 /* PBXContainerItemProxy */;
+		};
+		227D487E23FD3694006AA872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 227D485A23FD3692006AA872 /* WarCardView */;
+			targetProxy = 227D487D23FD3694006AA872 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		227D486423FD3692006AA872 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227D486523FD3692006AA872 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		227D486923FD3693006AA872 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				227D486A23FD3693006AA872 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		227D488323FD3694006AA872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		227D488423FD3694006AA872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		227D488623FD3694006AA872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AW6J383NS3;
+				INFOPLIST_FILE = WarCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeroy.WarCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		227D488723FD3694006AA872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AW6J383NS3;
+				INFOPLIST_FILE = WarCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeroy.WarCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		227D488923FD3694006AA872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AW6J383NS3;
+				INFOPLIST_FILE = WarCardViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeroy.WarCardViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarCardView.app/WarCardView";
+			};
+			name = Debug;
+		};
+		227D488A23FD3694006AA872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AW6J383NS3;
+				INFOPLIST_FILE = WarCardViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeroy.WarCardViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarCardView.app/WarCardView";
+			};
+			name = Release;
+		};
+		227D488C23FD3694006AA872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AW6J383NS3;
+				INFOPLIST_FILE = WarCardViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeroy.WarCardViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WarCardView;
+			};
+			name = Debug;
+		};
+		227D488D23FD3694006AA872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AW6J383NS3;
+				INFOPLIST_FILE = WarCardViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeroy.WarCardViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WarCardView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227D485623FD3692006AA872 /* Build configuration list for PBXProject "WarCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227D488323FD3694006AA872 /* Debug */,
+				227D488423FD3694006AA872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227D488523FD3694006AA872 /* Build configuration list for PBXNativeTarget "WarCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227D488623FD3694006AA872 /* Debug */,
+				227D488723FD3694006AA872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227D488823FD3694006AA872 /* Build configuration list for PBXNativeTarget "WarCardViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227D488923FD3694006AA872 /* Debug */,
+				227D488A23FD3694006AA872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227D488B23FD3694006AA872 /* Build configuration list for PBXNativeTarget "WarCardViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227D488C23FD3694006AA872 /* Debug */,
+				227D488D23FD3694006AA872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 227D485323FD3692006AA872 /* Project object */;
+}
